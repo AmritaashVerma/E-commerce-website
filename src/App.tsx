@@ -64,9 +64,11 @@ return (
       </div>
     </nav>
 
+<div>
+<div className="flex flex-wrap">
 {/* product no.1 */}
-  <div className="px-10 py-10">
-    <div className="px-10 py-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 px-10 py-10">
+  <div className="px-10 py-10 w-full sm:w-1/2 lg:w-1/3">
+    <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full flex flex-col">
         <a href="#">
             <img className="p-8 rounded-t-lg" src="/iphone15.png" alt="product image" />
         </a>
@@ -101,8 +103,8 @@ return (
     </div>
     </div>
    {/* product no.2 */}
-   <div className="px-10 py-10">
-    <div className="px-10 py-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   <div className="px-10 py-10 w-full sm:w-1/2 lg:w-1/3">
+    <div className="h-full flex flex-col w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img className="p-8 rounded-t-lg" src="/Thalla_bat.png" alt="product image" />
         </a>
@@ -138,8 +140,8 @@ return (
     </div>
 
 {/* product no.3 */}
-   <div className="px-10 py-10">
-    <div className="px-10 py-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   <div className="px-10 py-10 w-full sm:w-1/2 lg:w-1/3">
+    <div className="h-full flex flex-col w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img className="p-8 rounded-t-lg" src="/pokeball.png" alt="product image" />
         </a>
@@ -173,12 +175,13 @@ return (
         </div>
     </div>
     </div>
-
-<div className="grid grid-flow-col auto-cols-max">  
+</div>
 
 {/* product no.4 */}
-  <div className="px-10 py-10">
-    <div className="px-10 py-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div>
+  <div className="flex flex-wrap">
+  <div className="px-10 py-10 w-full sm:w-1/2 lg:w-1/3">
+    <div className="h-full flex flex w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img className="p-8 rounded-t-lg" src="/macbook.png" alt="product image" />
         </a>
@@ -214,8 +217,8 @@ return (
     </div>
 </div>
   {/* product no.5 */}
-  <div className="px-10 py-10">
-    <div className="px-10 py-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div className="px-10 py-10 w-full sm:w-1/2 lg:w-1/3">
+    <div className="h-full flex flex-col w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img className="p-8 rounded-t-lg" src="/samsung laptop.png" alt="product image" />
         </a>
@@ -250,8 +253,8 @@ return (
     </div>
     </div>
   {/* product no.6 */}
-  <div className="px-10 py-10">
-    <div className="px-10 py-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div className="px-10 py-10 w-full sm:w-1/2 lg:w-1/3">
+    <div className="h-full flex flex-col w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img className="p-8 rounded-t-lg" src="/Earth.png" alt="product image" />
         </a>
@@ -285,6 +288,8 @@ return (
         </div>
     </div>
 </div>
+</div>
+</div>
 
 {/* customer reviews and positive feedback*/}
 
@@ -295,16 +300,16 @@ return (
             <img src="/customer_review1.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-2.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="/customer_review1.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-3.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="/customer_review1.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-4.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="/customer_review1.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-5.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="/customer_review1.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
     </div>
     <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
